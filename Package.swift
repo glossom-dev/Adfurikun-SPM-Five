@@ -12,7 +12,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/glossom-dev/Adfurikun-SPM-Core.git",
-            from: "4.4.000"
+            exact: "4.4.000"
         ),
     ],
     targets: [
