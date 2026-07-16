@@ -1,7 +1,7 @@
 // swift-tools-version: 6.0
 import PackageDescription
 
-let releaseVersion = "4.4.000"
+let releaseVersion = "4.4.0"
 
 let package = Package(
     name: "Adfurikun-SPM-Five",
