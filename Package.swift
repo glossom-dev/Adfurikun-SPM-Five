@@ -1,6 +1,8 @@
 // swift-tools-version: 6.0
 import PackageDescription
 
+let releaseVersion = "4.4.000"
+
 let package = Package(
     name: "Adfurikun-SPM-Five",
     platforms: [.iOS(.v13)],
@@ -16,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FiveAd",
-            url: "https://github.com/glossom-dev/Adfurikun-SPM-Five/releases/download/2.9.2025111900/FiveAd.xcframework.zip",
+            url: "https://github.com/glossom-dev/Adfurikun-SPM-Five/releases/download/\(releaseVersion)/FiveAd.xcframework.zip",
             checksum: "f813a3fb468f5478cf6f2fd109d0abcc73e0f888015e6d78e585071d41a4bd0a"
         ),
         .target(
