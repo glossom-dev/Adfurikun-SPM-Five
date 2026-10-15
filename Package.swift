@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Adfurikun-SPM-Five",
+    name: "AdfurikunFive",
     platforms: [.iOS(.v13)],
     products: [
         .library(name: "AdfurikunFive", targets: ["AdfurikunFive"])
@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/glossom-dev/Adfurikun-SPM-Core.git",
-            exact: "4.5.0-alpha.3"
+            exact: "4.5.0-alpha.4"
         ),
     ],
     targets: [
